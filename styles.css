@@ -1,144 +1,18 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-<<<<<<< Updated upstream
-    font-family: Arial, Helvetica, sans-serif;
-=======
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
 
-.header{
-    width: 100%;
-    height: 80px;
-    display: block;
-    background: black;
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5), black), url(https://images.squarespace-cdn.com/content/v1/61b9febbd2e0fb042487ab37/a60a44eb-2802-4f14-a6c2-5206b280fb36/HF+-+07845.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
-/* li, a, button{
-    font-weight: 500;
-    font-size: 16px;
-    color:aliceblue;
-    background: black;
->>>>>>> Stashed changes
-    text-decoration: none;
-    list-style-type: none;
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
 }
-
-.menu_bar{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    background: black;
-    padding: 20px;
-}
-.logo-box{
-    padding-left: 50px;
-    color: white;
-}
-.logo-box .logo{
-    font-size: 20px;
-}
-
-.menu-box{
-    padding: 10px;
-    justify-content: space-between;
-}
-li a{
-    padding: 10px;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-}
-.menu-box .nav_links{
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
-.book_botton-box{
-    padding-right: 50px;
-}
-.home_img-box{
-    padding: 0;
-}
- .header_img{
-    width: 100%; 
-    padding: 10px 0 0 0;
-    align-items: center;
-    background: black;
-}
-.nav_links li a{
-    transition: all 0.3s ease 0s;
-}
-.nav_links li a:hover{
-    color:rgba(0,136,169,.8);
-}
-button{
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover{
-    background-color: rgba(0,136,169,.8);
-
-}
-.about_main{
-   padding: 20px;
-    background: black;
-
-<<<<<<< Updated upstream
-}
-.about_main .about-box{
-    padding: 0 80px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    align-content: center;
-
-}
-.about_photo-box img{
-    width: 200px;
-    height: 200px;
-border-radius: 50%;
-}
-.about-title{
-    display: flex;
-    flex-direction: column;
-    background: red;
-    
-    padding: 30px;
-    color: white;
-}
-.about-description{
-    padding: 30px;
-    color: white;
-    background: red;
-}
-.exp-box{
-=======
-.banner-box{
-    padding: 0 30px;
-    border: 40px;
-}
-.banner img {
->>>>>>> Stashed changes
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background: red;
-}
-<<<<<<< Updated upstream
-.exp-box li{
-    padding: 30px;
-}
-=======
- */
->>>>>>> Stashed changes
