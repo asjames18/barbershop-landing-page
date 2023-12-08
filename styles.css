@@ -221,7 +221,7 @@ nav ul li a{
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 540px) {
     .title-text h1{
         font-size: 35px;
     }
@@ -234,7 +234,13 @@ nav ul li a{
     .features-img img{
        width: 100%; 
     }
+    .feature_overlay-img{
+        width: 100%;
+        left: 0;
+        
+    }
 }
+
 /* End Feature Styles */
 /* Start Service Styles */
 #service{
