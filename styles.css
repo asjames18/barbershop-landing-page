@@ -213,6 +213,8 @@ nav ul li a {
   border: 1px solid black;
 }
 .feature-text p {
+    padding: 0 20px;
+    text-align: initial;
 }
 
 @media screen and (max-width: 540px) {
