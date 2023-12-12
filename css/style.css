@@ -511,8 +511,29 @@ hr {
     top: 41%;
     transform: translate(-50%, -50%);
 }
-.social-links{
+.social-links {
+    display: flex;
     text-align: center;
+    justify-content: center;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 10px;
+  background: lightgrey;
+}
+.copyright p{
+  color: black
+}
+.copyright p a{
+  text-decoration: none;
+  color: black
+}
+.copyright p a:hover{
+  text-decoration: none;
+  color: red
 }
 .social-links .fa{
     height: 40px;
