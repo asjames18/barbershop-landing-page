@@ -389,6 +389,7 @@ hr {
 }
 .service-desc p {
   font-size: 14px;
+  line-height: 1.2rem;
 }
 .single-service:hover .service-desc {
   bottom: 40%;
