@@ -23,14 +23,15 @@
 }
 .banner-text h1 {
   font-size: 130px;
+  padding: 40px 0;
 }
 .banner-text p {
-  font-size: 20px;
+  font-size: 40px;
   font-style: italic;
 }
 
 .banner-btn {
-  margin: 70px auto 0;
+  margin: 35px auto 0;
 }
 .banner-btn a {
   width: 300px;
@@ -101,14 +102,84 @@ nav ul li a {
   width: 20px;
   margin-top: 15px;
 }
+@media screen and (max-width: 1300px) {
+  .banner-text h1 {
+    font-size: 96px;
+  }
+  .banner-btn a {
+    display: block;
+    margin: 20px auto;
+  }
+  .banner-text p{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .banner-text h1 {
+    font-size: 80px;
+  }
+  .banner-btn a {
+    display: block;
+    margin: 20px auto;
+  }
+  .banner-text p{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner-text h1 {
+    font-size: 60px;
+  }
+  .banner-btn a {
+    display: block;
+    margin: 20px auto;
+  }
+  .banner-text p{
+    font-size: 23px;
+  }
+}
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .banner-text h1 {
     font-size: 44px;
   }
   .banner-btn a {
     display: block;
     margin: 20px auto;
+  }
+}
+@media screen and (max-width: 452px) {
+  .banner-text h1 {
+    font-size: 34px;
+  }
+  .banner-btn a {
+    display: block;
+    margin: 20px auto;
+    width: 231px;
+    height: 30px;
+  }
+  .banner-text a{
+    font-size: 12px;
+  }
+  .banner-text p{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .banner-text h1 {
+    font-size: 20px;
+  }
+  .banner-btn a {
+    display: block;
+    margin: 20px auto;
+    width: 191px;
+    height: 25px;
+  }
+  .banner-text a{
+    font-size: 11px;
+  }
+  .banner-text p{
+    font-size: 12px;
   }
 }
 /* End Banner Styles */
