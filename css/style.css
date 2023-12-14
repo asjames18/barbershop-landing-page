@@ -451,14 +451,14 @@ hr {
 }
 @media screen and (max-width: 430px) {
   .single-service:hover .service-desc{
-    font-size: 14px;
+    font-size: 15px;
   }
   .single-service:hover .service-desc p{
-    font-size: 10px;
+    font-size: 12px;
   }
  
   .single-service:hover .service-desc{
-    bottom: 13%;  
+    bottom: 12%;  
   }
 }
 @media screen and (max-width: 389px) {
