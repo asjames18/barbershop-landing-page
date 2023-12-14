@@ -396,6 +396,43 @@ hr {
   opacity: 1;
 }
 
+@media screen and (max-width: 1400px) {
+  .single-service:hover .service-desc{
+    bottom: 30%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .single-service:hover .service-desc{
+    bottom: 25%;
+  }
+  .single-service:hover .eyebrows-desc{
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 1168px) {
+  .single-service:hover .service-desc{
+    bottom: 15%;
+  }
+}
+@media screen and (max-width: 1004px) {
+  .single-service:hover .service-desc{
+    font-size: 17px;
+  }
+  .single-service:hover .service-desc p{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 854px) {
+  .single-service:hover .service-desc{
+    font-size: 15px;
+  }
+  .single-service:hover .service-desc p{
+    font-size: 12px;
+  }
+  .single-service:hover .service-desc{
+    bottom: 9%;
+  }
+
 @media screen and (max-width: 540px) {
   .single-service {
     flex-basis: 100%;
@@ -409,7 +446,39 @@ hr {
   }
 
   .single-service:hover .service-desc {
-    bottom: 25% !important;
+    bottom: 25%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .single-service:hover .service-desc{
+    font-size: 14px;
+  }
+  .single-service:hover .service-desc p{
+    font-size: 10px;
+  }
+ 
+  .single-service:hover .service-desc{
+    bottom: 13%;  
+  }
+}
+@media screen and (max-width: 389px) {
+  .single-service:hover .service-desc p{
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .single-service:hover .service-desc{
+    font-size: 14px;
+  }
+  .single-service:hover .service-desc p{
+    font-size: 9px;
+  }
+  .service-desc p {
+    line-height: .9rem;
+  }
+ 
+  .single-service:hover .service-desc{
+    bottom: 10%;  
   }
 }
 /* End Service Styles */
@@ -468,6 +537,7 @@ hr {
     flex-basis: 100%;
   }
 }
+
 /* End Testimonial Styles */
 /* Start Footer Styles */
 #footer{
