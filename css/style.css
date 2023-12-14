@@ -449,7 +449,7 @@ hr {
     bottom: 25%;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .single-service:hover .service-desc{
     font-size: 14px;
   }
@@ -481,6 +481,7 @@ hr {
     bottom: 10%;  
   }
 }
+
 /* End Service Styles */
 /* Start Testimonial Styles */
 #testimonial {
