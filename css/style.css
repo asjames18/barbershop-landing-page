@@ -400,6 +400,16 @@ hr {
   .single-service:hover .service-desc{
     bottom: 30%;
   }
+  .testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px black;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
 }
 @media screen and (max-width: 1200px) {
   .single-service:hover .service-desc{
@@ -425,6 +435,7 @@ hr {
 @media screen and (max-width: 854px) {
   .single-service:hover .service-desc{
     font-size: 15px;
+  }
   }
   .single-service:hover .service-desc p{
     font-size: 12px;
